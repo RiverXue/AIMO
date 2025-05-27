@@ -1,89 +1,77 @@
-# AIMO - 陪伴型日记App
+# AIMO Project
 
-## 1. 项目概述
+This repository contains the backend microservices and frontend applications for the AIMO project.
 
-AIMO是一款旨在提供情感陪伴和记录功能的日记应用。用户可以记录每日心情、撰写日记，并拥有类似个人QQ空间的动态发布与浏览功能，以及一个公开的动态广场。未来版本将集成AI助手，并基于用户数据和心理学知识库提供个性化建议与提示。项目还将包含会员功能。
+## Project Structure
 
-项目目标是达到「苍穹外卖」级别的复杂度，具备完整的前后端架构和企业级功能。
+- `aimo-services`: Contains all backend Spring Cloud Alibaba microservices.
+  - `aimo-common`: Common utilities and shared code.
+  - `aimo-gateway`: Spring Cloud Gateway for API routing.
+  - `aimo-auth-server`: Authentication and authorization service.
+  - `aimo-user-service`: User management service.
+  - `aimo-diary-service`: Diary and mood management service.
+  - `aimo-social-service`: Social features (posts, comments, likes) service.
+  - `aimo-ai-service`: AI assistant service.
+  - `aimo-membership-service`: Membership management service.
+  - `aimo-admin-service`: Admin backend service.
+  - `aimo-message-service`: Asynchronous message processing service.
+- `aimo-web`: Contains frontend applications.
+  - `aimo-admin-vue`: Admin panel frontend (Vue.js).
+  - `aimo-mobile-app`: Mobile application frontend.
 
-## 2. 开发流程
+## Getting Started
 
-遵循标准软件开发生命周期：
-1.  **需求分析与立项**
-2.  **项目排期与资源分配**
-3.  **设计阶段**：
-    *   设计讨论与方向确立
-    *   技术调研与选型
-    *   组件客户端与服务架构设计
-    *   需求文档、接口文档编写
-    *   数据库设计
-4.  **开发阶段**：
-    *   各模块功能实现
-    *   前后端联调
-5.  **评审阶段**
-6.  **测试阶段**：
-    *   正式提测
-    *   性能测试
-7.  **上线部署**
-8.  **持续迭代** (Develop阶段)：新需求 -> 开发 -> 部署
+### Prerequisites
 
-## 3. 技术栈
+- Java 17 or higher
+- Maven 3.6.3 or higher
+- Docker (for Nacos, MySQL, Redis, RabbitMQ, MinIO)
 
--   **后端**：
-    -   Spring Boot
-    -   Spring Cloud Alibaba (微服务架构)
-    -   MyBatis Plus
--   **数据库**：
-    -   MySQL 8.0 (主库)
-    -   Redis (缓存)
--   **中间件**：
-    -   RabbitMQ (异步任务)
-    -   Nacos (服务注册与发现、配置中心)
--   **前端**：
-    -   Vue 3 + Element Plus (管理端)
-    -   移动端适配 (H5 或 小程序接口)
--   **工具与协议**：
-    -   JWT (认证与授权)
-    -   Swagger 3.0 (API接口文档)
-    -   OSS (对象存储，如 MinIO，用于文件存储)
-    -   其他根据具体需求引入的库和工具
+### Setup
 
-## 4. 初步模块划分 (微服务架构)
+1.  **Clone the repository:**
 
-### 后端服务 (aimo-services)
-*   `aimo-gateway`: API网关服务
-*   `aimo-common`: 公共模块 (工具类, DTOs, 枚举, 统一异常处理等)
-*   `aimo-auth-server`: 认证授权中心 (负责登录、JWT生成与校验)
-*   `aimo-user-service`: 用户服务 (用户注册、信息管理、个人资料)
-*   `aimo-diary-service`: 日记与心情服务 (日记CRUD、心情记录)
-*   `aimo-social-service`: 社交服务 (个人动态、广场动态、评论、点赞)
-*   `aimo-ai-service`: AI助手服务 (初期可为简单接口，后期扩展)
-*   `aimo-membership-service`: 会员服务 (会员等级、权益管理)
-*   `aimo-admin-service`: 后台管理服务 (针对管理端接口，管理用户、内容、系统配置等)
-*   `aimo-message-service`: 消息通知服务 (使用RabbitMQ实现异步通知，如新动态、评论提醒)
+    ```bash
+    git clone <repository_url>
+    cd AIMO
+    ```
 
-### 前端应用 (aimo-web)
-*   `aimo-admin-vue`: 管理后台前端 (Vue 3 + Element Plus)
-*   `aimo-mobile-app`: 用户移动端 (H5 或 小程序，初期可先规划接口)
+2.  **Start Infrastructure Services (using Docker Compose - *future step*):**
 
-## 5. 数据库设计初步构想
+    You will need to set up and run Nacos, MySQL, Redis, RabbitMQ, and MinIO. A `docker-compose.yml` will be provided in a later step.
 
-(后续详细设计)
+3.  **Build Backend Microservices:**
 
-*   用户表 (users)
-*   心情记录表 (mood_logs)
-*   日记表 (diaries)
-*   动态表 (posts)
-*   评论表 (comments)
-*   点赞表 (likes)
-*   会员信息表 (memberships)
-*   AI交互记录表 (ai_interactions)
-*   ...以及其他辅助表和关联表
+    Navigate to the `aimo-services` directory and build all modules:
 
-## 6. 后续步骤
+    ```bash
+    cd aimo-services
+    mvn clean install
+    ```
 
-1.  创建详细的项目目录结构。
-2.  搭建各个微服务的基础骨架。
-3.  设计核心模块的数据库表结构。
-4.  编写核心API接口文档 (Swagger)。
-5.  逐步实现各模块功能。
+4.  **Run Backend Microservices:**
+
+    Each microservice can be run individually. For example:
+
+    ```bash
+    cd aimo-gateway
+    mvn spring-boot:run
+    ```
+
+    Repeat for other services as needed.
+
+5.  **Frontend Applications:**
+
+    Refer to the `aimo-web/aimo-admin-vue` and `aimo-web/aimo-mobile-app` directories for instructions on running the frontend applications.
+
+## Configuration
+
+Each service's `application.yml` (or `bootstrap.yml`) will contain specific configurations for Nacos, database connections, and other service-specific settings. These will be detailed in subsequent steps.
+
+## API Documentation
+
+Swagger UI will be available for services that include it (e.g., `http://localhost:port/swagger-ui.html`).
+
+## Contributing
+
+Further details on contributing, testing, and deployment will be added as the project progresses.
