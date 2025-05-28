@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   nacos:
-    image: nacos/nacos-server:2.2.3
+    image: nacos/nacos-server:v2.5.1
     container_name: nacos-server
     environment:
       - MODE=standalone

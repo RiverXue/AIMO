@@ -17,6 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>3.1.5</spring-boot.version> <!-- 请根据实际情况选择稳定版本 -->
+        <spring-cloud.version>2022.0.4</spring-cloud.version> <!-- 请根据实际情况选择稳定版本 -->
         <spring-cloud-alibaba.version>2022.0.0.0</spring-cloud-alibaba.version> <!-- 请根据实际情况选择与Spring Boot版本兼容的稳定版本 -->
         <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
         <mysql-connector.version>8.0.33</mysql-connector.version>
@@ -49,6 +50,13 @@
                 <scope>import</scope>
             </dependency>
 
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <!-- Spring Cloud Alibaba Dependencies -->
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>

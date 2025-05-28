@@ -1,0 +1,36 @@
+2025-05-28 10:18:20,829 INFO Connection transportReady,connectionId = 1748398700829_172.18.0.1_52046 
+
+2025-05-28 10:18:25,129 INFO Connection transportTerminated,connectionId = 1748398700829_172.18.0.1_52046 
+
+2025-05-28 10:18:25,137 INFO [1748398700829_172.18.0.1_52046]client disconnected,clear config listen context
+
+2025-05-28 10:22:53,764 INFO Connection transportReady,connectionId = 1748398973764_172.18.0.1_46042 
+
+2025-05-28 10:22:57,989 INFO Connection transportTerminated,connectionId = 1748398973764_172.18.0.1_46042 
+
+2025-05-28 10:22:57,992 INFO [1748398973764_172.18.0.1_46042]client disconnected,clear config listen context
+
+2025-05-28 10:24:29,373 INFO Connection transportReady,connectionId = 1748399069373_172.18.0.1_55196 
+
+2025-05-28 10:24:40,415 INFO Connection transportTerminated,connectionId = 1748399069373_172.18.0.1_55196 
+
+2025-05-28 10:24:40,417 INFO [1748399069373_172.18.0.1_55196]client disconnected,clear config listen context
+
+2025-05-28 10:26:12,915 INFO Connection transportReady,connectionId = 1748399172915_172.18.0.1_53210 
+
+2025-05-28 10:26:24,114 INFO Connection transportTerminated,connectionId = 1748399172915_172.18.0.1_53210 
+
+2025-05-28 10:26:24,115 INFO [1748399172915_172.18.0.1_53210]client disconnected,clear config listen context
+
+2025-05-28 10:26:57,456 INFO Connection transportReady,connectionId = 1748399217456_172.18.0.1_49296 
+
+2025-05-28 10:27:08,549 INFO Connection transportTerminated,connectionId = 1748399217456_172.18.0.1_49296 
+
+2025-05-28 10:27:08,552 INFO [1748399217456_172.18.0.1_49296]client disconnected,clear config listen context
+
+2025-05-28 10:33:45,574 INFO Connection transportReady,connectionId = 1748399625574_172.18.0.1_33552 
+
+2025-05-28 10:33:52,169 INFO Connection transportTerminated,connectionId = 1748399625574_172.18.0.1_33552 
+
+2025-05-28 10:33:52,171 INFO [1748399625574_172.18.0.1_33552]client disconnected,clear config listen context
+

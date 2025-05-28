@@ -1,0 +1,304 @@
+2025-05-28 09:54:30,178 INFO Starting Nacos v2.5.1 using Java 1.8.0_442 on a15ff3f20ebb with PID 1 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2025-05-28 09:54:30,180 INFO The following 1 profile is active: "standalone"
+
+2025-05-28 09:54:30,476 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.config.server, filter com.alibaba.nacos.config.server.filter.ConfigEnabledFilter
+
+2025-05-28 09:54:30,478 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.naming, filter com.alibaba.nacos.naming.config.NamingEnabledFilter
+
+2025-05-28 09:54:30,481 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.istio, filter com.alibaba.nacos.istio.config.IstioEnabledFilter
+
+2025-05-28 09:54:30,810 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.config.server.Config to avoid duplicate scan
+
+2025-05-28 09:54:31,039 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.naming.NamingApp to avoid duplicate scan
+
+2025-05-28 09:54:31,058 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.cmdb.CmdbApp to avoid duplicate scan
+
+2025-05-28 09:54:31,080 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,081 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,082 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,083 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,084 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,084 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,085 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,086 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,087 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,088 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,088 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,089 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,090 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,091 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,092 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,093 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,093 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,094 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,094 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,095 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,095 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,096 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,097 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,097 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,099 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,099 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.istio.IstioApp to avoid duplicate scan
+
+2025-05-28 09:54:31,100 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,100 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,101 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,101 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,102 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,102 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,103 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,104 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,105 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,105 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,106 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2025-05-28 09:54:31,695 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.prometheus.PrometheusApp to avoid duplicate scan
+
+2025-05-28 09:54:34,268 INFO Tomcat initialized with port(s): 8848 (http)
+
+2025-05-28 09:54:34,293 INFO Starting service [Tomcat]
+
+2025-05-28 09:54:34,295 INFO Starting Servlet engine: [Apache Tomcat/9.0.98]
+
+2025-05-28 09:54:34,502 INFO Initializing Spring embedded WebApplicationContext
+
+2025-05-28 09:54:34,503 INFO Root WebApplicationContext: initialization completed in 4192 ms
+
+2025-05-28 09:54:34,630 INFO Not found ServerIdentityChecker implementation from SPI, use default.
+
+2025-05-28 09:54:35,132 INFO Nacos-related cluster resource initialization
+
+2025-05-28 09:54:35,143 INFO Load com.alibaba.nacos.core.ability.RemoteAbilityInitializer for ServerAbilityInitializer
+
+2025-05-28 09:54:35,144 INFO Load com.alibaba.nacos.naming.ability.NamingAbilityInitializer for ServerAbilityInitializer
+
+2025-05-28 09:54:35,152 INFO The cluster resource is initialized
+
+2025-05-28 09:54:36,232 INFO HikariPool-1 - Starting...
+
+2025-05-28 09:54:36,236 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2025-05-28 09:54:38,170 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+
+2025-05-28 09:54:38,174 INFO HikariPool-1 - Start completed.
+
+2025-05-28 09:54:39,191 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoBetaMapperByMySql) datasource(mysql) tableName(config_info_beta) successfully.
+
+2025-05-28 09:54:39,193 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoMapperByMySql) datasource(mysql) tableName(config_info) successfully.
+
+2025-05-28 09:54:39,194 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoTagMapperByMySql) datasource(mysql) tableName(config_info_tag) successfully.
+
+2025-05-28 09:54:39,194 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoGrayMapperByMySql) datasource(mysql) tableName(config_info_gray) successfully.
+
+2025-05-28 09:54:39,195 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigTagsRelationMapperByMySql) datasource(mysql) tableName(config_tags_relation) successfully.
+
+2025-05-28 09:54:39,195 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.HistoryConfigInfoMapperByMySql) datasource(mysql) tableName(his_config_info) successfully.
+
+2025-05-28 09:54:39,196 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.TenantInfoMapperByMySql) datasource(mysql) tableName(tenant_info) successfully.
+
+2025-05-28 09:54:39,196 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.TenantCapacityMapperByMySql) datasource(mysql) tableName(tenant_capacity) successfully.
+
+2025-05-28 09:54:39,197 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.GroupCapacityMapperByMysql) datasource(mysql) tableName(group_capacity) successfully.
+
+2025-05-28 09:54:39,198 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoBetaMapperByDerby) datasource(derby) tableName(config_info_beta) successfully.
+
+2025-05-28 09:54:39,198 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoMapperByDerby) datasource(derby) tableName(config_info) successfully.
+
+2025-05-28 09:54:39,198 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoTagMapperByDerby) datasource(derby) tableName(config_info_tag) successfully.
+
+2025-05-28 09:54:39,199 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoGrayMapperByDerby) datasource(derby) tableName(config_info_gray) successfully.
+
+2025-05-28 09:54:39,200 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoTagsRelationMapperByDerby) datasource(derby) tableName(config_tags_relation) successfully.
+
+2025-05-28 09:54:39,200 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.HistoryConfigInfoMapperByDerby) datasource(derby) tableName(his_config_info) successfully.
+
+2025-05-28 09:54:39,200 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.TenantInfoMapperByDerby) datasource(derby) tableName(tenant_info) successfully.
+
+2025-05-28 09:54:39,201 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.TenantCapacityMapperByDerby) datasource(derby) tableName(tenant_capacity) successfully.
+
+2025-05-28 09:54:39,201 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.GroupCapacityMapperByDerby) datasource(derby) tableName(group_capacity) successfully.
+
+2025-05-28 09:54:39,368 INFO ConfigQueryHandlerChain has been initialized successfully with chain: nacos
+
+2025-05-28 09:54:39,588 INFO Get historyConfigCleaner config from env, activeHistoryConfigCleaner{ activeHistoryConfigCleaner=nacos}
+
+2025-05-28 09:54:40,346 INFO Ready to get current node abilities...
+
+2025-05-28 09:54:40,350 INFO Ready to initialize current node abilities, support modes: [CLUSTER_CLIENT, SERVER, SDK_CLIENT]
+
+2025-05-28 09:54:40,353 INFO Initialize current abilities finish...
+
+2025-05-28 09:54:40,354 INFO Ready to get current node abilities...
+
+2025-05-28 09:54:40,354 INFO Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+
+2025-05-28 09:54:40,355 INFO Initialize current abilities finish...
+
+2025-05-28 09:54:40,356 INFO [AbilityControlManager] Successfully initialize AbilityControlManager
+
+2025-05-28 09:54:42,935 INFO Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47a7a101, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bb51241, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cfa2c4f, org.springframework.security.web.header.HeaderWriterFilter@3872bc37, org.springframework.security.web.csrf.CsrfFilter@10641c09, org.springframework.security.web.authentication.logout.LogoutFilter@74294c1a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48eb9836, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11b455e5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7479b626, org.springframework.security.web.session.SessionManagementFilter@12968227, org.springframework.security.web.access.ExceptionTranslationFilter@58496c97]
+
+2025-05-28 09:54:43,301 INFO Adding welcome page: class path resource [static/index.html]
+
+2025-05-28 09:54:44,045 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+
+2025-05-28 09:54:44,121 WARN You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+
+2025-05-28 09:54:44,124 INFO Will not secure Ant [pattern='/**']
+
+2025-05-28 09:54:44,125 WARN You are asking Spring Security to ignore Mvc [pattern='/prometheus']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+
+2025-05-28 09:54:44,126 INFO Will not secure Mvc [pattern='/prometheus']
+
+2025-05-28 09:54:44,126 WARN You are asking Spring Security to ignore Mvc [pattern='/prometheus/namespaceId/{namespaceId}']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+
+2025-05-28 09:54:44,127 INFO Will not secure Mvc [pattern='/prometheus/namespaceId/{namespaceId}']
+
+2025-05-28 09:54:44,128 WARN You are asking Spring Security to ignore Mvc [pattern='/prometheus/namespaceId/{namespaceId}/service/{service}']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+
+2025-05-28 09:54:44,128 INFO Will not secure Mvc [pattern='/prometheus/namespaceId/{namespaceId}/service/{service}']
+
+2025-05-28 09:54:44,243 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2025-05-28 09:54:44,261 INFO No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+
+2025-05-28 09:54:44,400 INFO Started Nacos in 16.306 seconds (JVM running for 17.199)
+
+2025-05-28 09:54:44,401 INFO Nacos started successfully in stand alone mode. use embedded storage
+
+2025-05-28 09:55:00,007 INFO Get topN config from env, TopNConfig{enabled=true, topNCount=10, internalMs=0}
+
+2025-05-28 10:04:37,154 INFO [capacityManagement] start correct usage
+
+2025-05-28 10:04:37,170 INFO [capacityManagement] end correct usage, cost: 0.013736694s
+
+2025-05-28 10:04:37,393 WARN clearHistoryConfig get scheduled
+
+2025-05-28 10:04:37,394 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-05-28 10:04:37,396 WARN clearConfigHistory, getBeforeStamp:2025-04-28 10:04:37.0, pageSize:1000
+
+2025-05-28 10:04:37,463 WARN history config cleaner successfully
+
+2025-05-28 10:14:37,302 INFO [capacityManagement] start correct usage
+
+2025-05-28 10:14:37,305 INFO [capacityManagement] end correct usage, cost: 9.76743E-4s
+
+2025-05-28 10:14:37,596 WARN clearHistoryConfig get scheduled
+
+2025-05-28 10:14:37,597 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-05-28 10:14:37,597 WARN clearConfigHistory, getBeforeStamp:2025-04-28 10:14:37.0, pageSize:1000
+
+2025-05-28 10:14:37,602 WARN history config cleaner successfully
+
+2025-05-28 10:18:21,104 INFO Get ParamCheck config from env, ParamCheckConfig{paramCheckEnabled=trueactiveParamChecker=default}
+
+2025-05-28 10:18:21,125 INFO ConfigQueryRequestExtractor has been initialized successfully with extractor: nacos
+
+2025-05-28 10:24:36,365 INFO [capacityManagement] start correct usage
+
+2025-05-28 10:24:36,369 INFO [capacityManagement] end correct usage, cost: 0.001820262s
+
+2025-05-28 10:24:36,661 WARN clearHistoryConfig get scheduled
+
+2025-05-28 10:24:36,662 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-05-28 10:24:36,662 WARN clearConfigHistory, getBeforeStamp:2025-04-28 10:24:36.0, pageSize:1000
+
+2025-05-28 10:24:36,664 WARN history config cleaner successfully
+
+2025-05-28 10:34:34,939 INFO [capacityManagement] start correct usage
+
+2025-05-28 10:34:34,941 INFO [capacityManagement] end correct usage, cost: 8.86097E-4s
+
+2025-05-28 10:34:35,230 WARN clearHistoryConfig get scheduled
+
+2025-05-28 10:34:35,231 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-05-28 10:34:35,231 WARN clearConfigHistory, getBeforeStamp:2025-04-28 10:34:35.0, pageSize:1000
+
+2025-05-28 10:34:35,234 WARN history config cleaner successfully
+
+2025-05-28 10:44:33,818 INFO [capacityManagement] start correct usage
+
+2025-05-28 10:44:33,838 INFO [capacityManagement] end correct usage, cost: 0.002052187s
+
+2025-05-28 10:44:34,110 WARN clearHistoryConfig get scheduled
+
+2025-05-28 10:44:34,111 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-05-28 10:44:34,112 WARN clearConfigHistory, getBeforeStamp:2025-04-28 10:44:34.0, pageSize:1000
+
+2025-05-28 10:44:34,115 WARN history config cleaner successfully
+
+2025-05-28 10:45:20,533 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2025-05-28 10:45:20,534 INFO Initializing Servlet 'dispatcherServlet'
+
+2025-05-28 10:45:20,548 INFO Completed initialization in 13 ms
+
+2025-05-28 10:45:21,350 INFO [AuthPluginManager] Load AuthPluginService(class com.alibaba.nacos.plugin.auth.impl.NacosAuthPluginService) AuthServiceName(nacos) successfully.
+
+2025-05-28 10:45:21,354 INFO [AuthPluginManager] Load AuthPluginService(class com.alibaba.nacos.plugin.auth.impl.LdapAuthPluginService) AuthServiceName(ldap) successfully.
+
+2025-05-28 10:54:32,463 INFO [capacityManagement] start correct usage
+
+2025-05-28 10:54:32,467 INFO [capacityManagement] end correct usage, cost: 0.002244569s
+
+2025-05-28 10:54:32,731 WARN clearHistoryConfig get scheduled
+
+2025-05-28 10:54:32,731 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-05-28 10:54:32,733 WARN clearConfigHistory, getBeforeStamp:2025-04-28 10:54:32.0, pageSize:1000
+
+2025-05-28 10:54:32,738 WARN history config cleaner successfully
+
+2025-05-28 11:04:30,933 INFO [capacityManagement] start correct usage
+
+2025-05-28 11:04:30,939 INFO [capacityManagement] end correct usage, cost: 0.003094823s
+
+2025-05-28 11:04:31,204 WARN clearHistoryConfig get scheduled
+
+2025-05-28 11:04:31,206 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-05-28 11:04:31,211 WARN clearConfigHistory, getBeforeStamp:2025-04-28 11:04:31.0, pageSize:1000
+
+2025-05-28 11:04:31,214 WARN history config cleaner successfully
+

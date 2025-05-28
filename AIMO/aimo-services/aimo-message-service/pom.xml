@@ -68,6 +68,10 @@
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-openfeign-core</artifactId>
+        </dependency>
 
         <!-- Potentially, if messages need to be persisted or logged to DB -->
         <!-- <dependency>
