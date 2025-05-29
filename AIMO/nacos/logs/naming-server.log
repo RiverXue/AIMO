@@ -285,3 +285,219 @@ java.lang.InterruptedException: null
 
 2025-05-29 11:48:23,202 INFO Client connection 1748489970942_172.18.0.1_60568 disconnect, remove instances and subscribers
 
+2025-05-29 12:40:50,725 WARN namespace : public, [DEFAULT_GROUP@@aimo-user-service] services are automatically cleaned
+
+2025-05-29 16:19:16,720 INFO Client connection 1748506756653_172.18.0.1_49894 connect
+
+2025-05-29 16:19:16,836 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748506756653_172.18.0.1_49894
+
+2025-05-29 16:31:55,622 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=1}, 1748506756653_172.18.0.1_49894
+
+2025-05-29 16:31:55,637 INFO Client connection 1748506756653_172.18.0.1_49894 disconnect, remove instances and subscribers
+
+2025-05-29 16:32:04,452 INFO Client connection 1748507524390_172.18.0.1_34406 connect
+
+2025-05-29 16:32:04,573 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=2}, 1748507524390_172.18.0.1_34406
+
+2025-05-29 16:45:40,036 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=3}, 1748507524390_172.18.0.1_34406
+
+2025-05-29 16:45:40,047 INFO Client connection 1748507524390_172.18.0.1_34406 disconnect, remove instances and subscribers
+
+2025-05-29 16:45:48,275 INFO Client connection 1748508348212_172.18.0.1_36840 connect
+
+2025-05-29 16:45:48,398 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=4}, 1748508348212_172.18.0.1_36840
+
+2025-05-29 16:47:06,359 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=5}, 1748508348212_172.18.0.1_36840
+
+2025-05-29 16:47:06,370 INFO Client connection 1748508348212_172.18.0.1_36840 disconnect, remove instances and subscribers
+
+2025-05-29 16:47:13,979 INFO Client connection 1748508433908_172.18.0.1_43666 connect
+
+2025-05-29 16:47:14,106 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=6}, 1748508433908_172.18.0.1_43666
+
+2025-05-29 17:23:25,004 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=7}, 1748508433908_172.18.0.1_43666
+
+2025-05-29 17:23:25,021 INFO Client connection 1748508433908_172.18.0.1_43666 disconnect, remove instances and subscribers
+
+2025-05-29 17:23:35,880 INFO Client connection 1748510615816_172.18.0.1_53638 connect
+
+2025-05-29 17:23:35,993 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=8}, 1748510615816_172.18.0.1_53638
+
+2025-05-29 17:28:18,632 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=9}, 1748510615816_172.18.0.1_53638
+
+2025-05-29 17:28:18,644 INFO Client connection 1748510615816_172.18.0.1_53638 disconnect, remove instances and subscribers
+
+2025-05-29 17:29:44,069 WARN namespace : public, [DEFAULT_GROUP@@aimo-user-service] services are automatically cleaned
+
+2025-05-29 17:31:05,841 INFO Client connection 1748511065781_172.18.0.1_50222 connect
+
+2025-05-29 17:31:05,964 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748511065781_172.18.0.1_50222
+
+2025-05-29 17:34:48,931 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=1}, 1748511065781_172.18.0.1_50222
+
+2025-05-29 17:34:48,941 INFO Client connection 1748511065781_172.18.0.1_50222 disconnect, remove instances and subscribers
+
+2025-05-29 17:34:57,337 INFO Client connection 1748511297265_172.18.0.1_53976 connect
+
+2025-05-29 17:34:57,463 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=2}, 1748511297265_172.18.0.1_53976
+
+2025-05-29 19:17:49,843 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=3}, 1748511297265_172.18.0.1_53976
+
+2025-05-29 19:17:49,862 INFO Client connection 1748511297265_172.18.0.1_53976 disconnect, remove instances and subscribers
+
+2025-05-29 19:17:56,894 INFO Client connection 1748517476828_172.18.0.1_48580 connect
+
+2025-05-29 19:17:57,011 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=4}, 1748517476828_172.18.0.1_48580
+
+2025-05-29 19:18:05,197 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=5}, 1748517476828_172.18.0.1_48580
+
+2025-05-29 19:18:05,533 INFO Client connection 1748517476828_172.18.0.1_48580 disconnect, remove instances and subscribers
+
+2025-05-29 19:19:50,541 WARN namespace : public, [DEFAULT_GROUP@@aimo-user-service] services are automatically cleaned
+
+2025-05-29 19:34:54,584 INFO Client connection 1748518494574_172.18.0.1_35570 connect
+
+2025-05-29 19:34:54,704 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=0}, 1748518494574_172.18.0.1_35570
+
+2025-05-29 19:37:45,003 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=1}, 1748518494574_172.18.0.1_35570
+
+2025-05-29 19:37:45,015 INFO Client connection 1748518494574_172.18.0.1_35570 disconnect, remove instances and subscribers
+
+2025-05-29 19:37:45,534 INFO Client connection 1748518491389_172.18.0.1_35554 disconnect, remove instances and subscribers
+
+2025-05-29 19:37:50,796 INFO Client connection 1748518670790_172.18.0.1_51894 connect
+
+2025-05-29 19:37:50,917 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=2}, 1748518670790_172.18.0.1_51894
+
+2025-05-29 19:39:28,628 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=3}, 1748518670790_172.18.0.1_51894
+
+2025-05-29 19:39:28,640 INFO Client connection 1748518670790_172.18.0.1_51894 disconnect, remove instances and subscribers
+
+2025-05-29 19:39:29,150 INFO Client connection 1748518667694_172.18.0.1_50206 disconnect, remove instances and subscribers
+
+2025-05-29 19:39:34,179 INFO Client connection 1748518774172_172.18.0.1_55982 connect
+
+2025-05-29 19:39:34,300 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=4}, 1748518774172_172.18.0.1_55982
+
+2025-05-29 19:47:42,039 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=5}, 1748518774172_172.18.0.1_55982
+
+2025-05-29 19:47:42,050 INFO Client connection 1748518774172_172.18.0.1_55982 disconnect, remove instances and subscribers
+
+2025-05-29 19:47:42,579 INFO Client connection 1748518771175_172.18.0.1_55978 disconnect, remove instances and subscribers
+
+2025-05-29 19:47:47,784 INFO Client connection 1748519267777_172.18.0.1_42450 connect
+
+2025-05-29 19:47:47,899 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=6}, 1748519267777_172.18.0.1_42450
+
+2025-05-29 19:49:06,745 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=7}, 1748519267777_172.18.0.1_42450
+
+2025-05-29 19:49:06,757 INFO Client connection 1748519267777_172.18.0.1_42450 disconnect, remove instances and subscribers
+
+2025-05-29 19:49:07,271 INFO Client connection 1748519264616_172.18.0.1_42434 disconnect, remove instances and subscribers
+
+2025-05-29 19:49:12,525 INFO Client connection 1748519352519_172.18.0.1_55830 connect
+
+2025-05-29 19:49:12,637 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=8}, 1748519352519_172.18.0.1_55830
+
+2025-05-29 19:51:33,014 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=9}, 1748519352519_172.18.0.1_55830
+
+2025-05-29 19:51:33,024 INFO Client connection 1748519352519_172.18.0.1_55830 disconnect, remove instances and subscribers
+
+2025-05-29 19:51:33,533 INFO Client connection 1748519349308_172.18.0.1_47384 disconnect, remove instances and subscribers
+
+2025-05-29 19:51:38,482 INFO Client connection 1748519498476_172.18.0.1_36532 connect
+
+2025-05-29 19:51:38,597 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=10}, 1748519498476_172.18.0.1_36532
+
+2025-05-29 19:57:37,458 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-05-29 19:57:37,479 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
+
+2025-05-29 19:57:37,533 INFO Client connection 1748519498476_172.18.0.1_36532 disconnect, remove instances and subscribers
+
+2025-05-29 19:57:37,543 INFO Client connection 1748519495561_172.18.0.1_36526 disconnect, remove instances and subscribers
+
+2025-05-29 19:58:03,289 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-05-29 19:58:03,289 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-05-29 19:58:03,290 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-05-29 19:58:03,290 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-05-29 19:58:03,988 INFO Load instance extension handler []
+
+2025-05-29 19:58:20,073 INFO Client connection 1748519900064_172.18.0.1_37086 connect
+
+2025-05-29 19:58:20,204 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748519900064_172.18.0.1_37086
+
+2025-05-29 20:05:21,893 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=1}, 1748519900064_172.18.0.1_37086
+
+2025-05-29 20:05:21,908 INFO Client connection 1748519900064_172.18.0.1_37086 disconnect, remove instances and subscribers
+
+2025-05-29 20:05:22,434 INFO Client connection 1748519896896_172.18.0.1_37078 disconnect, remove instances and subscribers
+
+2025-05-29 20:05:27,586 INFO Client connection 1748520327580_172.18.0.1_45148 connect
+
+2025-05-29 20:05:27,703 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=2}, 1748520327580_172.18.0.1_45148
+
+2025-05-29 20:06:34,139 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=3}, 1748520327580_172.18.0.1_45148
+
+2025-05-29 20:06:34,149 INFO Client connection 1748520327580_172.18.0.1_45148 disconnect, remove instances and subscribers
+
+2025-05-29 20:06:34,671 INFO Client connection 1748520324551_172.18.0.1_45146 disconnect, remove instances and subscribers
+
+2025-05-29 20:06:39,550 INFO Client connection 1748520399543_172.18.0.1_33198 connect
+
+2025-05-29 20:06:39,669 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=0}, 1748520399543_172.18.0.1_33198
+
+2025-05-29 20:06:56,634 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=1}, 1748520399543_172.18.0.1_33198
+
+2025-05-29 20:06:56,648 INFO Client connection 1748520399543_172.18.0.1_33198 disconnect, remove instances and subscribers
+
+2025-05-29 20:06:57,167 INFO Client connection 1748520396689_172.18.0.1_33188 disconnect, remove instances and subscribers
+
+2025-05-29 20:07:35,198 WARN namespace : public, [DEFAULT_GROUP@@aimo-user-service] services are automatically cleaned
+
+2025-05-29 20:08:35,363 WARN namespace : public, [DEFAULT_GROUP@@aimo-diary-service] services are automatically cleaned
+
+2025-05-29 20:17:53,614 INFO Client connection 1748521073608_172.18.0.1_51200 connect
+
+2025-05-29 20:17:53,740 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=0}, 1748521073608_172.18.0.1_51200
+
+2025-05-29 20:22:09,929 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=1}, 1748521073608_172.18.0.1_51200
+
+2025-05-29 20:22:09,944 INFO Client connection 1748521073608_172.18.0.1_51200 disconnect, remove instances and subscribers
+
+2025-05-29 20:22:10,471 INFO Client connection 1748521070476_172.18.0.1_51198 disconnect, remove instances and subscribers
+
+2025-05-29 20:22:15,403 INFO Client connection 1748521335396_172.18.0.1_52494 connect
+
+2025-05-29 20:22:15,525 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=2}, 1748521335396_172.18.0.1_52494
+
+2025-05-29 20:22:41,077 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=3}, 1748521335396_172.18.0.1_52494
+
+2025-05-29 20:22:41,088 INFO Client connection 1748521335396_172.18.0.1_52494 disconnect, remove instances and subscribers
+
+2025-05-29 20:22:41,603 INFO Client connection 1748521332614_172.18.0.1_52480 disconnect, remove instances and subscribers
+
+2025-05-29 20:22:48,263 INFO Client connection 1748521368256_172.18.0.1_38114 connect
+
+2025-05-29 20:22:48,372 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=4}, 1748521368256_172.18.0.1_38114
+
+2025-05-29 20:31:16,953 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=5}, 1748521368256_172.18.0.1_38114
+
+2025-05-29 20:31:16,966 INFO Client connection 1748521368256_172.18.0.1_38114 disconnect, remove instances and subscribers
+
+2025-05-29 20:31:17,307 INFO Client connection 1748521365757_172.18.0.1_41224 disconnect, remove instances and subscribers
+
+2025-05-29 20:31:23,099 INFO Client connection 1748521883092_172.18.0.1_55082 connect
+
+2025-05-29 20:31:23,211 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=6}, 1748521883092_172.18.0.1_55082
+
+2025-05-29 20:33:15,947 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=7}, 1748521883092_172.18.0.1_55082
+
+2025-05-29 20:33:15,959 INFO Client connection 1748521883092_172.18.0.1_55082 disconnect, remove instances and subscribers
+
+2025-05-29 20:33:16,468 INFO Client connection 1748521880487_172.18.0.1_55076 disconnect, remove instances and subscribers
+

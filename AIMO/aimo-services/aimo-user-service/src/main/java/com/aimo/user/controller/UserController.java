@@ -1,5 +1,6 @@
 package com.aimo.user.controller;
 
+import com.aimo.common.util.JwtUtils;
 import com.aimo.user.Repository.UserRepository;
 import com.aimo.user.dto.LoginRequest;
 import com.aimo.user.dto.UserDto;
@@ -7,6 +8,8 @@ import com.aimo.user.entity.User;
 import com.aimo.user.mapper.UserMapper;
 import com.aimo.user.service.UserService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -66,6 +69,7 @@ public class UserController {
     // 注册用户
     @RequestMapping("/register")
     public String registerUser(@RequestBody LoginRequest loginRequest) {
+        System.out.println("收到注册请求" + loginRequest.getUsername());
         return userService.registerUser(loginRequest.getUsername(), loginRequest.getPassword());
     }
 
@@ -74,7 +78,37 @@ public class UserController {
     @RequestMapping("/login")
     public ResponseEntity<String> loginUser(@RequestBody LoginRequest loginRequest) {
         return userService.loginUser(loginRequest.getUsername(), loginRequest.getPassword())
-                .map(user -> ResponseEntity.ok("登录成功。" + user.getUsername()))
+                .map(user -> {
+                    System.out.println("用户ID: " + user.getId());
+                    System.out.println("用户名: " + user.getUsername());
+                    // 登录成功，生成token
+                    String token = JwtUtils.createToken(
+                            String.valueOf(user.getId()),
+                            user.getUsername()
+                    );
+                    return ResponseEntity.ok(token);
+                })
                 .orElse(ResponseEntity.status(401).body("登录失败，用户或密码错误。"));
     }
+
+    @RequestMapping("/me")
+    public ResponseEntity<UserDto> getCurrentUser() {
+        // 获取当前登录用户的认证信息
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        if (authentication == null || !authentication.isAuthenticated()) {
+            return ResponseEntity.status(401).build();
+        }
+
+        // 获取用户名（前面生成 token 时用的用户名）
+        String username = authentication.getName();
+
+        // 根据用户名查询用户
+        User user = userRepository.findByUsername(username).orElse(null);
+        if (user == null) {
+            return ResponseEntity.notFound().build();
+        }
+
+        return ResponseEntity.ok(userMapper.toDto(user));
+    }
+
 }

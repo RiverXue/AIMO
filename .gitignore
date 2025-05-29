@@ -1,0 +1,40 @@
+# IDEA 配置
+.idea/
+
+# Java 编译输出
+target/
+*.class
+
+# 日志文件
+*.log
+
+# Nacos 运行时数据
+AIMO/nacos/data/
+AIMO/nacos/logs/
+
+# MySQL 数据目录（如果是开发环境）
+AIMO/mysql/data/
+
+# MinIO 临时数据
+AIMO/minio/data/
+
+# Maven 编译状态缓存
+**/maven-status/
+
+# Derby 数据
+AIMO/nacos/data/derby-data/
+
+# Snapshots
+**/snapshot/
+
+# SST 和 Options 文件
+*.sst
+OPTIONS-*
+MANIFEST-*
+
+# 前端依赖目录（如 Vue.js/React 项目）
+**/node_modules/
+# 前端构建产物（如 Vue 的 dist/）
+**/dist/
+# 前端环境配置（如 .env.local）
+**/.env.*

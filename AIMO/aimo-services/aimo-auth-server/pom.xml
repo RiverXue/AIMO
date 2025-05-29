@@ -71,10 +71,12 @@
         </dependency>
 
         <!-- Redis for storing tokens or other auth-related data (optional) -->
+        <!--
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
+        -->
 
         <!-- Common module -->
         <dependency>

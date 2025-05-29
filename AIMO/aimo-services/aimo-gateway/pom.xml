@@ -89,6 +89,13 @@
             <artifactId>aimo-common</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!-- Redis for caching and session management (optional) -->
+        <!--
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis-reactive</artifactId>
+        </dependency>
+        -->
     </dependencies>
 
     <build>
