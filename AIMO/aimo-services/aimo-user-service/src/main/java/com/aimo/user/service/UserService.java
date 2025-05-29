@@ -4,14 +4,12 @@ import com.aimo.user.Repository.UserRepository;
 import com.aimo.user.entity.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Service;  // 仅保留@Service注解
 
 import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
-// service层实现Repository层的接口，实现业务逻辑
 public class UserService {
     private final UserRepository userRepository;
 

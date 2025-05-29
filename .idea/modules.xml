@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AIMO_g2.5.iml" filepath="$PROJECT_DIR$/.idea/AIMO_g2.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AIMO/aimo-services/aimo-user-service/aimo-user-service.iml" filepath="$PROJECT_DIR$/AIMO/aimo-services/aimo-user-service/aimo-user-service.iml" />
     </modules>
   </component>
 </project>
