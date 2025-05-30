@@ -1,4 +1,4 @@
-package com.aimo.common.util;
+package com.aimo.auth.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

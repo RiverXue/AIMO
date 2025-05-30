@@ -1,24 +1,18 @@
-2025-05-29 08:33:41,839 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+2025-05-30 08:56:21,268 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
 
-2025-05-29 08:33:41,839 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+2025-05-30 08:56:21,268 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
 
-2025-05-29 08:33:41,842 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+2025-05-30 08:56:21,269 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
 
-2025-05-29 08:33:41,842 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+2025-05-30 08:56:21,269 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
 
-2025-05-29 08:33:42,737 INFO Load instance extension handler []
+2025-05-30 08:56:22,079 INFO Load instance extension handler []
 
-2025-05-29 08:42:40,609 INFO Client connection 1748479360498_172.18.0.1_57110 connect
+2025-05-30 11:44:39,760 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
 
-2025-05-29 08:42:40,747 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748479360498_172.18.0.1_57110
+2025-05-30 11:44:39,801 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
 
-2025-05-29 08:58:16,508 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
-
-2025-05-29 08:58:16,525 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
-
-2025-05-29 08:58:16,601 INFO Client connection 1748479360498_172.18.0.1_57110 disconnect, remove instances and subscribers
-
-2025-05-29 08:58:16,838 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+2025-05-30 11:44:40,071 ERROR [HEALTH-CHECK-V2] error while processing NIO task
 
 java.lang.InterruptedException: null
 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
@@ -31,473 +25,45 @@ java.lang.InterruptedException: null
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
-2025-05-29 09:04:55,273 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+2025-05-30 18:16:19,092 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
 
-2025-05-29 09:04:55,273 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+2025-05-30 18:16:19,092 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
 
-2025-05-29 09:04:55,274 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+2025-05-30 18:16:19,093 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
 
-2025-05-29 09:04:55,274 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+2025-05-30 18:16:19,093 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
 
-2025-05-29 09:04:56,178 INFO Load instance extension handler []
+2025-05-30 18:16:19,853 INFO Load instance extension handler []
 
-2025-05-29 09:05:01,087 INFO Client connection 1748480701065_172.18.0.1_58368 connect
+2025-05-30 18:16:24,614 INFO Client connection 1748600184605_172.18.0.1_42440 connect
 
-2025-05-29 09:05:03,086 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748480701065_172.18.0.1_58368
+2025-05-30 18:16:24,755 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=0}, 1748600184605_172.18.0.1_42440
 
-2025-05-29 09:25:14,038 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=1}, 1748480701065_172.18.0.1_58368
+2025-05-30 18:29:34,120 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=1}, 1748600184605_172.18.0.1_42440
 
-2025-05-29 09:25:14,055 INFO Client connection 1748480701065_172.18.0.1_58368 disconnect, remove instances and subscribers
+2025-05-30 18:29:34,133 INFO Client connection 1748600184605_172.18.0.1_42440 disconnect, remove instances and subscribers
 
-2025-05-29 09:25:20,280 INFO Client connection 1748481920207_172.18.0.1_58078 connect
+2025-05-30 18:29:34,504 INFO Client connection 1748600181317_172.18.0.1_42428 disconnect, remove instances and subscribers
 
-2025-05-29 09:25:20,414 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=2}, 1748481920207_172.18.0.1_58078
+2025-05-30 18:29:42,024 INFO Client connection 1748600982018_172.18.0.1_51652 connect
 
-2025-05-29 09:26:33,907 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
+2025-05-30 18:29:42,151 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=2}, 1748600982018_172.18.0.1_51652
 
-2025-05-29 09:26:33,950 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
+2025-05-30 18:40:55,566 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=3}, 1748600982018_172.18.0.1_51652
 
-2025-05-29 09:26:33,957 INFO Client connection 1748481993908_172.18.0.1_40418 connect
+2025-05-30 18:40:55,584 INFO Client connection 1748600982018_172.18.0.1_51652 disconnect, remove instances and subscribers
 
-2025-05-29 09:26:33,993 INFO Client connection 1748481920207_172.18.0.1_58078 disconnect, remove instances and subscribers
+2025-05-30 18:40:56,155 INFO Client connection 1748600977885_172.18.0.1_51642 disconnect, remove instances and subscribers
 
-2025-05-29 09:26:33,996 INFO Client connection 1748481993908_172.18.0.1_40418 disconnect, remove instances and subscribers
+2025-05-30 18:42:19,224 WARN namespace : public, [DEFAULT_GROUP@@aimo-diary-service] services are automatically cleaned
 
-2025-05-29 09:27:00,838 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+2025-05-30 18:49:06,746 INFO Client connection 1748602146733_172.18.0.1_51296 connect
 
-2025-05-29 09:27:00,838 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+2025-05-30 18:49:06,875 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=0}, 1748602146733_172.18.0.1_51296
 
-2025-05-29 09:27:00,838 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+2025-05-30 18:49:49,650 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=1}, 1748602146733_172.18.0.1_51296
 
-2025-05-29 09:27:00,838 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+2025-05-30 18:49:49,660 INFO Client connection 1748602146733_172.18.0.1_51296 disconnect, remove instances and subscribers
 
-2025-05-29 09:27:01,821 INFO Load instance extension handler []
-
-2025-05-29 09:27:04,635 INFO Client connection 1748482024612_172.18.0.1_32974 connect
-
-2025-05-29 09:27:06,801 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748482024612_172.18.0.1_32974
-
-2025-05-29 09:31:13,080 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
-
-2025-05-29 09:31:13,092 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
-
-2025-05-29 09:31:13,128 INFO Client connection 1748482024612_172.18.0.1_32974 disconnect, remove instances and subscribers
-
-2025-05-29 09:32:14,330 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
-
-2025-05-29 09:32:14,331 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
-
-2025-05-29 09:32:14,331 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
-
-2025-05-29 09:32:14,331 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
-
-2025-05-29 09:32:15,260 INFO Load instance extension handler []
-
-2025-05-29 09:35:14,830 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
-
-2025-05-29 09:35:14,844 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
-
-2025-05-29 09:35:55,562 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
-
-2025-05-29 09:35:55,562 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
-
-2025-05-29 09:35:55,563 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
-
-2025-05-29 09:35:55,563 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
-
-2025-05-29 09:35:56,554 INFO Load instance extension handler []
-
-2025-05-29 09:39:15,635 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
-
-2025-05-29 09:39:15,635 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
-
-2025-05-29 09:39:15,636 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
-
-2025-05-29 09:39:15,636 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
-
-2025-05-29 09:39:16,275 INFO Load instance extension handler []
-
-2025-05-29 09:39:36,737 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
-
-2025-05-29 09:39:36,754 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
-
-2025-05-29 09:39:57,650 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
-
-2025-05-29 09:39:57,650 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
-
-2025-05-29 09:39:57,650 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
-
-2025-05-29 09:39:57,650 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
-
-2025-05-29 09:39:58,679 INFO Load instance extension handler []
-
-2025-05-29 09:48:59,872 INFO Client connection 1748483339778_172.18.0.1_33210 connect
-
-2025-05-29 09:49:00,025 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748483339778_172.18.0.1_33210
-
-2025-05-29 09:53:01,860 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=1}, 1748483339778_172.18.0.1_33210
-
-2025-05-29 09:53:01,886 INFO Client connection 1748483339778_172.18.0.1_33210 disconnect, remove instances and subscribers
-
-2025-05-29 09:53:07,572 INFO Client connection 1748483587506_172.18.0.1_51772 connect
-
-2025-05-29 09:53:07,700 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=2}, 1748483587506_172.18.0.1_51772
-
-2025-05-29 09:57:01,892 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=3}, 1748483587506_172.18.0.1_51772
-
-2025-05-29 09:57:01,908 INFO Client connection 1748483587506_172.18.0.1_51772 disconnect, remove instances and subscribers
-
-2025-05-29 09:57:07,857 INFO Client connection 1748483827808_172.18.0.1_49574 connect
-
-2025-05-29 09:57:07,976 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=4}, 1748483827808_172.18.0.1_49574
-
-2025-05-29 09:58:22,543 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
-
-2025-05-29 09:58:22,553 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
-
-2025-05-29 09:58:22,612 INFO Client connection 1748483827808_172.18.0.1_49574 disconnect, remove instances and subscribers
-
-2025-05-29 09:58:22,856 ERROR [HEALTH-CHECK-V2] error while processing NIO task
-
-java.lang.InterruptedException: null
-	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
-	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
-	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2025-05-29 09:58:45,370 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
-
-2025-05-29 09:58:45,370 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
-
-2025-05-29 09:58:45,371 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
-
-2025-05-29 09:58:45,371 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
-
-2025-05-29 09:58:46,291 INFO Load instance extension handler []
-
-2025-05-29 09:58:49,265 INFO Client connection 1748483929236_172.18.0.1_36312 connect
-
-2025-05-29 09:58:50,090 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748483929236_172.18.0.1_36312
-
-2025-05-29 10:05:43,344 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
-
-2025-05-29 10:05:43,372 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
-
-2025-05-29 10:05:43,396 INFO Client connection 1748483929236_172.18.0.1_36312 disconnect, remove instances and subscribers
-
-2025-05-29 10:05:43,650 ERROR [HEALTH-CHECK-V2] error while processing NIO task
-
-java.lang.InterruptedException: null
-	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
-	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
-	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2025-05-29 10:06:34,742 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
-
-2025-05-29 10:06:34,742 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
-
-2025-05-29 10:06:34,742 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
-
-2025-05-29 10:06:34,744 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
-
-2025-05-29 10:06:35,755 INFO Load instance extension handler []
-
-2025-05-29 10:19:43,618 INFO Client connection 1748485183504_172.18.0.1_53150 connect
-
-2025-05-29 10:19:43,754 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748485183504_172.18.0.1_53150
-
-2025-05-29 10:20:48,590 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
-
-2025-05-29 10:20:48,609 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
-
-2025-05-29 10:20:48,649 INFO Client connection 1748485183504_172.18.0.1_53150 disconnect, remove instances and subscribers
-
-2025-05-29 10:22:29,836 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
-
-2025-05-29 10:22:29,836 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
-
-2025-05-29 10:22:29,837 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
-
-2025-05-29 10:22:29,837 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
-
-2025-05-29 10:22:30,716 INFO Load instance extension handler []
-
-2025-05-29 10:22:34,208 INFO Client connection 1748485354172_172.18.0.1_57484 connect
-
-2025-05-29 10:22:34,447 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748485354172_172.18.0.1_57484
-
-2025-05-29 10:22:49,570 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=1}, 1748485354172_172.18.0.1_57484
-
-2025-05-29 10:22:49,583 INFO Client connection 1748485354172_172.18.0.1_57484 disconnect, remove instances and subscribers
-
-2025-05-29 10:22:55,988 INFO Client connection 1748485375923_172.18.0.1_45794 connect
-
-2025-05-29 10:22:56,111 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=2}, 1748485375923_172.18.0.1_45794
-
-2025-05-29 10:37:55,748 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=3}, 1748485375923_172.18.0.1_45794
-
-2025-05-29 10:37:55,777 INFO Client connection 1748485375923_172.18.0.1_45794 disconnect, remove instances and subscribers
-
-2025-05-29 10:38:03,967 INFO Client connection 1748486283910_172.18.0.1_34392 connect
-
-2025-05-29 10:38:04,084 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=4}, 1748486283910_172.18.0.1_34392
-
-2025-05-29 10:39:07,724 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=5}, 1748486283910_172.18.0.1_34392
-
-2025-05-29 10:39:07,736 INFO Client connection 1748486283910_172.18.0.1_34392 disconnect, remove instances and subscribers
-
-2025-05-29 10:39:15,185 INFO Client connection 1748486355117_172.18.0.1_58388 connect
-
-2025-05-29 10:39:15,309 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=6}, 1748486355117_172.18.0.1_58388
-
-2025-05-29 11:19:47,322 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=7}, 1748486355117_172.18.0.1_58388
-
-2025-05-29 11:19:47,334 INFO Client connection 1748486355117_172.18.0.1_58388 disconnect, remove instances and subscribers
-
-2025-05-29 11:21:13,888 WARN namespace : public, [DEFAULT_GROUP@@aimo-user-service] services are automatically cleaned
-
-2025-05-29 11:22:24,943 INFO Client connection 1748488944885_172.18.0.1_57158 connect
-
-2025-05-29 11:22:25,086 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748488944885_172.18.0.1_57158
-
-2025-05-29 11:30:56,422 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=1}, 1748488944885_172.18.0.1_57158
-
-2025-05-29 11:30:56,432 INFO Client connection 1748488944885_172.18.0.1_57158 disconnect, remove instances and subscribers
-
-2025-05-29 11:32:42,174 WARN namespace : public, [DEFAULT_GROUP@@aimo-user-service] services are automatically cleaned
-
-2025-05-29 11:39:31,004 INFO Client connection 1748489970942_172.18.0.1_60568 connect
-
-2025-05-29 11:39:31,132 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748489970942_172.18.0.1_60568
-
-2025-05-29 11:48:23,188 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=1}, 1748489970942_172.18.0.1_60568
-
-2025-05-29 11:48:23,202 INFO Client connection 1748489970942_172.18.0.1_60568 disconnect, remove instances and subscribers
-
-2025-05-29 12:40:50,725 WARN namespace : public, [DEFAULT_GROUP@@aimo-user-service] services are automatically cleaned
-
-2025-05-29 16:19:16,720 INFO Client connection 1748506756653_172.18.0.1_49894 connect
-
-2025-05-29 16:19:16,836 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748506756653_172.18.0.1_49894
-
-2025-05-29 16:31:55,622 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=1}, 1748506756653_172.18.0.1_49894
-
-2025-05-29 16:31:55,637 INFO Client connection 1748506756653_172.18.0.1_49894 disconnect, remove instances and subscribers
-
-2025-05-29 16:32:04,452 INFO Client connection 1748507524390_172.18.0.1_34406 connect
-
-2025-05-29 16:32:04,573 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=2}, 1748507524390_172.18.0.1_34406
-
-2025-05-29 16:45:40,036 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=3}, 1748507524390_172.18.0.1_34406
-
-2025-05-29 16:45:40,047 INFO Client connection 1748507524390_172.18.0.1_34406 disconnect, remove instances and subscribers
-
-2025-05-29 16:45:48,275 INFO Client connection 1748508348212_172.18.0.1_36840 connect
-
-2025-05-29 16:45:48,398 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=4}, 1748508348212_172.18.0.1_36840
-
-2025-05-29 16:47:06,359 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=5}, 1748508348212_172.18.0.1_36840
-
-2025-05-29 16:47:06,370 INFO Client connection 1748508348212_172.18.0.1_36840 disconnect, remove instances and subscribers
-
-2025-05-29 16:47:13,979 INFO Client connection 1748508433908_172.18.0.1_43666 connect
-
-2025-05-29 16:47:14,106 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=6}, 1748508433908_172.18.0.1_43666
-
-2025-05-29 17:23:25,004 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=7}, 1748508433908_172.18.0.1_43666
-
-2025-05-29 17:23:25,021 INFO Client connection 1748508433908_172.18.0.1_43666 disconnect, remove instances and subscribers
-
-2025-05-29 17:23:35,880 INFO Client connection 1748510615816_172.18.0.1_53638 connect
-
-2025-05-29 17:23:35,993 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=8}, 1748510615816_172.18.0.1_53638
-
-2025-05-29 17:28:18,632 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=9}, 1748510615816_172.18.0.1_53638
-
-2025-05-29 17:28:18,644 INFO Client connection 1748510615816_172.18.0.1_53638 disconnect, remove instances and subscribers
-
-2025-05-29 17:29:44,069 WARN namespace : public, [DEFAULT_GROUP@@aimo-user-service] services are automatically cleaned
-
-2025-05-29 17:31:05,841 INFO Client connection 1748511065781_172.18.0.1_50222 connect
-
-2025-05-29 17:31:05,964 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748511065781_172.18.0.1_50222
-
-2025-05-29 17:34:48,931 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=1}, 1748511065781_172.18.0.1_50222
-
-2025-05-29 17:34:48,941 INFO Client connection 1748511065781_172.18.0.1_50222 disconnect, remove instances and subscribers
-
-2025-05-29 17:34:57,337 INFO Client connection 1748511297265_172.18.0.1_53976 connect
-
-2025-05-29 17:34:57,463 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=2}, 1748511297265_172.18.0.1_53976
-
-2025-05-29 19:17:49,843 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=3}, 1748511297265_172.18.0.1_53976
-
-2025-05-29 19:17:49,862 INFO Client connection 1748511297265_172.18.0.1_53976 disconnect, remove instances and subscribers
-
-2025-05-29 19:17:56,894 INFO Client connection 1748517476828_172.18.0.1_48580 connect
-
-2025-05-29 19:17:57,011 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=4}, 1748517476828_172.18.0.1_48580
-
-2025-05-29 19:18:05,197 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=5}, 1748517476828_172.18.0.1_48580
-
-2025-05-29 19:18:05,533 INFO Client connection 1748517476828_172.18.0.1_48580 disconnect, remove instances and subscribers
-
-2025-05-29 19:19:50,541 WARN namespace : public, [DEFAULT_GROUP@@aimo-user-service] services are automatically cleaned
-
-2025-05-29 19:34:54,584 INFO Client connection 1748518494574_172.18.0.1_35570 connect
-
-2025-05-29 19:34:54,704 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=0}, 1748518494574_172.18.0.1_35570
-
-2025-05-29 19:37:45,003 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=1}, 1748518494574_172.18.0.1_35570
-
-2025-05-29 19:37:45,015 INFO Client connection 1748518494574_172.18.0.1_35570 disconnect, remove instances and subscribers
-
-2025-05-29 19:37:45,534 INFO Client connection 1748518491389_172.18.0.1_35554 disconnect, remove instances and subscribers
-
-2025-05-29 19:37:50,796 INFO Client connection 1748518670790_172.18.0.1_51894 connect
-
-2025-05-29 19:37:50,917 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=2}, 1748518670790_172.18.0.1_51894
-
-2025-05-29 19:39:28,628 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=3}, 1748518670790_172.18.0.1_51894
-
-2025-05-29 19:39:28,640 INFO Client connection 1748518670790_172.18.0.1_51894 disconnect, remove instances and subscribers
-
-2025-05-29 19:39:29,150 INFO Client connection 1748518667694_172.18.0.1_50206 disconnect, remove instances and subscribers
-
-2025-05-29 19:39:34,179 INFO Client connection 1748518774172_172.18.0.1_55982 connect
-
-2025-05-29 19:39:34,300 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=4}, 1748518774172_172.18.0.1_55982
-
-2025-05-29 19:47:42,039 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=5}, 1748518774172_172.18.0.1_55982
-
-2025-05-29 19:47:42,050 INFO Client connection 1748518774172_172.18.0.1_55982 disconnect, remove instances and subscribers
-
-2025-05-29 19:47:42,579 INFO Client connection 1748518771175_172.18.0.1_55978 disconnect, remove instances and subscribers
-
-2025-05-29 19:47:47,784 INFO Client connection 1748519267777_172.18.0.1_42450 connect
-
-2025-05-29 19:47:47,899 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=6}, 1748519267777_172.18.0.1_42450
-
-2025-05-29 19:49:06,745 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=7}, 1748519267777_172.18.0.1_42450
-
-2025-05-29 19:49:06,757 INFO Client connection 1748519267777_172.18.0.1_42450 disconnect, remove instances and subscribers
-
-2025-05-29 19:49:07,271 INFO Client connection 1748519264616_172.18.0.1_42434 disconnect, remove instances and subscribers
-
-2025-05-29 19:49:12,525 INFO Client connection 1748519352519_172.18.0.1_55830 connect
-
-2025-05-29 19:49:12,637 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=8}, 1748519352519_172.18.0.1_55830
-
-2025-05-29 19:51:33,014 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=9}, 1748519352519_172.18.0.1_55830
-
-2025-05-29 19:51:33,024 INFO Client connection 1748519352519_172.18.0.1_55830 disconnect, remove instances and subscribers
-
-2025-05-29 19:51:33,533 INFO Client connection 1748519349308_172.18.0.1_47384 disconnect, remove instances and subscribers
-
-2025-05-29 19:51:38,482 INFO Client connection 1748519498476_172.18.0.1_36532 connect
-
-2025-05-29 19:51:38,597 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=10}, 1748519498476_172.18.0.1_36532
-
-2025-05-29 19:57:37,458 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
-
-2025-05-29 19:57:37,479 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
-
-2025-05-29 19:57:37,533 INFO Client connection 1748519498476_172.18.0.1_36532 disconnect, remove instances and subscribers
-
-2025-05-29 19:57:37,543 INFO Client connection 1748519495561_172.18.0.1_36526 disconnect, remove instances and subscribers
-
-2025-05-29 19:58:03,289 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
-
-2025-05-29 19:58:03,289 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
-
-2025-05-29 19:58:03,290 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
-
-2025-05-29 19:58:03,290 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
-
-2025-05-29 19:58:03,988 INFO Load instance extension handler []
-
-2025-05-29 19:58:20,073 INFO Client connection 1748519900064_172.18.0.1_37086 connect
-
-2025-05-29 19:58:20,204 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=0}, 1748519900064_172.18.0.1_37086
-
-2025-05-29 20:05:21,893 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=1}, 1748519900064_172.18.0.1_37086
-
-2025-05-29 20:05:21,908 INFO Client connection 1748519900064_172.18.0.1_37086 disconnect, remove instances and subscribers
-
-2025-05-29 20:05:22,434 INFO Client connection 1748519896896_172.18.0.1_37078 disconnect, remove instances and subscribers
-
-2025-05-29 20:05:27,586 INFO Client connection 1748520327580_172.18.0.1_45148 connect
-
-2025-05-29 20:05:27,703 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=2}, 1748520327580_172.18.0.1_45148
-
-2025-05-29 20:06:34,139 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-user-service', ephemeral=true, revision=3}, 1748520327580_172.18.0.1_45148
-
-2025-05-29 20:06:34,149 INFO Client connection 1748520327580_172.18.0.1_45148 disconnect, remove instances and subscribers
-
-2025-05-29 20:06:34,671 INFO Client connection 1748520324551_172.18.0.1_45146 disconnect, remove instances and subscribers
-
-2025-05-29 20:06:39,550 INFO Client connection 1748520399543_172.18.0.1_33198 connect
-
-2025-05-29 20:06:39,669 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=0}, 1748520399543_172.18.0.1_33198
-
-2025-05-29 20:06:56,634 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=1}, 1748520399543_172.18.0.1_33198
-
-2025-05-29 20:06:56,648 INFO Client connection 1748520399543_172.18.0.1_33198 disconnect, remove instances and subscribers
-
-2025-05-29 20:06:57,167 INFO Client connection 1748520396689_172.18.0.1_33188 disconnect, remove instances and subscribers
-
-2025-05-29 20:07:35,198 WARN namespace : public, [DEFAULT_GROUP@@aimo-user-service] services are automatically cleaned
-
-2025-05-29 20:08:35,363 WARN namespace : public, [DEFAULT_GROUP@@aimo-diary-service] services are automatically cleaned
-
-2025-05-29 20:17:53,614 INFO Client connection 1748521073608_172.18.0.1_51200 connect
-
-2025-05-29 20:17:53,740 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=0}, 1748521073608_172.18.0.1_51200
-
-2025-05-29 20:22:09,929 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=1}, 1748521073608_172.18.0.1_51200
-
-2025-05-29 20:22:09,944 INFO Client connection 1748521073608_172.18.0.1_51200 disconnect, remove instances and subscribers
-
-2025-05-29 20:22:10,471 INFO Client connection 1748521070476_172.18.0.1_51198 disconnect, remove instances and subscribers
-
-2025-05-29 20:22:15,403 INFO Client connection 1748521335396_172.18.0.1_52494 connect
-
-2025-05-29 20:22:15,525 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=2}, 1748521335396_172.18.0.1_52494
-
-2025-05-29 20:22:41,077 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=3}, 1748521335396_172.18.0.1_52494
-
-2025-05-29 20:22:41,088 INFO Client connection 1748521335396_172.18.0.1_52494 disconnect, remove instances and subscribers
-
-2025-05-29 20:22:41,603 INFO Client connection 1748521332614_172.18.0.1_52480 disconnect, remove instances and subscribers
-
-2025-05-29 20:22:48,263 INFO Client connection 1748521368256_172.18.0.1_38114 connect
-
-2025-05-29 20:22:48,372 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=4}, 1748521368256_172.18.0.1_38114
-
-2025-05-29 20:31:16,953 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=5}, 1748521368256_172.18.0.1_38114
-
-2025-05-29 20:31:16,966 INFO Client connection 1748521368256_172.18.0.1_38114 disconnect, remove instances and subscribers
-
-2025-05-29 20:31:17,307 INFO Client connection 1748521365757_172.18.0.1_41224 disconnect, remove instances and subscribers
-
-2025-05-29 20:31:23,099 INFO Client connection 1748521883092_172.18.0.1_55082 connect
-
-2025-05-29 20:31:23,211 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=6}, 1748521883092_172.18.0.1_55082
-
-2025-05-29 20:33:15,947 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='aimo-diary-service', ephemeral=true, revision=7}, 1748521883092_172.18.0.1_55082
-
-2025-05-29 20:33:15,959 INFO Client connection 1748521883092_172.18.0.1_55082 disconnect, remove instances and subscribers
-
-2025-05-29 20:33:16,468 INFO Client connection 1748521880487_172.18.0.1_55076 disconnect, remove instances and subscribers
+2025-05-30 18:49:50,043 INFO Client connection 1748602143055_172.18.0.1_51284 disconnect, remove instances and subscribers
 

@@ -1,1 +1,3 @@
 com\aimo\social\AimoSocialApplication.class
+com\aimo\social\mapper\PostMapper.class
+com\aimo\social\entity\Post.class

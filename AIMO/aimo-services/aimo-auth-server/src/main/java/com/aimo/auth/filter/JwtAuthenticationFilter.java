@@ -1,6 +1,6 @@
-package com.aimo.common.filter;
+package com.aimo.auth.filter;
 
-import com.aimo.common.util.JwtUtils;
+import com.aimo.auth.util.JwtUtils;
 import io.jsonwebtoken.Claims;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
