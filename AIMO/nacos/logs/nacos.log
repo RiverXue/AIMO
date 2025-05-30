@@ -672,3 +672,43 @@
 
 2025-05-30 18:44:38,244 INFO [capacityManagement] end correct usage, cost: 0.112383483s
 
+2025-05-30 18:54:00,340 WARN clearHistoryConfig get scheduled
+
+2025-05-30 18:54:00,341 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-05-30 18:54:00,342 WARN clearConfigHistory, getBeforeStamp:2025-04-30 18:54:00.0, pageSize:1000
+
+2025-05-30 18:54:00,344 WARN history config cleaner successfully
+
+2025-05-30 18:54:00,457 INFO [capacityManagement] start correct usage
+
+2025-05-30 18:54:00,565 INFO [capacityManagement] end correct usage, cost: 0.107980805s
+
+2025-05-30 19:03:22,382 WARN clearHistoryConfig get scheduled
+
+2025-05-30 19:03:22,384 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2025-05-30 19:03:22,385 WARN clearConfigHistory, getBeforeStamp:2025-04-30 19:03:22.0, pageSize:1000
+
+2025-05-30 19:03:22,388 WARN history config cleaner successfully
+
+2025-05-30 19:03:22,588 INFO [capacityManagement] start correct usage
+
+2025-05-30 19:03:22,704 INFO [capacityManagement] end correct usage, cost: 0.110639987s
+
+2025-05-30 19:03:24,459 INFO [NotifyCenter] Start destroying Publisher
+
+2025-05-30 19:03:24,461 INFO [HttpClientBeanHolder] Start destroying common HttpClient
+
+2025-05-30 19:03:24,460 WARN [WatchFileCenter] start close
+
+2025-05-30 19:03:24,460 INFO [ThreadPoolManager] Start destroying ThreadPool
+
+2025-05-30 19:03:24,466 INFO [NotifyCenter] Completed destruction of Publisher
+
+2025-05-30 19:03:24,470 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/conf
+
+2025-05-30 19:03:24,500 INFO [HttpClientBeanHolder] Completed destruction of HttpClient
+
+2025-05-30 19:03:24,549 WARN [WatchFileCenter] already closed
+

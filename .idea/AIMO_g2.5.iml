@@ -2,7 +2,22 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
+      <excludeFolder url="file://$MODULE_DIR$/AIMO/minio/data/.minio.sys/buckets/.heal" />
+      <excludeFolder url="file://$MODULE_DIR$/AIMO/minio/data/.minio.sys/multipart" />
+      <excludeFolder url="file://$MODULE_DIR$/AIMO/minio/data/.minio.sys/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/AIMO/mysql/data/#innodb_temp" />
+      <excludeFolder url="file://$MODULE_DIR$/AIMO/mysql/data/aimo_db" />
+      <excludeFolder url="file://$MODULE_DIR$/AIMO/nacos/data/connection" />
+      <excludeFolder url="file://$MODULE_DIR$/AIMO/nacos/data/derby-data/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/AIMO/nacos/data/naming" />
+      <excludeFolder url="file://$MODULE_DIR$/AIMO/nacos/data/protocol/raft/naming_instance_metadata/snapshot" />
+      <excludeFolder url="file://$MODULE_DIR$/AIMO/nacos/data/protocol/raft/naming_persistent_service/snapshot" />
+      <excludeFolder url="file://$MODULE_DIR$/AIMO/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot" />
+      <excludeFolder url="file://$MODULE_DIR$/AIMO/nacos/data/protocol/raft/naming_service_metadata/snapshot" />
+      <excludeFolder url="file://$MODULE_DIR$/AIMO/nacos/data/tps" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

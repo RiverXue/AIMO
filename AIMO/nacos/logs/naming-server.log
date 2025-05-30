@@ -67,3 +67,9 @@ java.lang.InterruptedException: null
 
 2025-05-30 18:49:50,043 INFO Client connection 1748602143055_172.18.0.1_51284 disconnect, remove instances and subscribers
 
+2025-05-30 18:51:41,596 WARN namespace : public, [DEFAULT_GROUP@@aimo-diary-service] services are automatically cleaned
+
+2025-05-30 19:03:24,460 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-05-30 19:03:24,500 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
+

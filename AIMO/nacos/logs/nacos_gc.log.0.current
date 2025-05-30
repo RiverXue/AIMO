@@ -32,3 +32,14 @@ CommandLine flags: -XX:+CMSClassUnloadingEnabled -XX:CMSInitiatingOccupancyFract
 2025-05-30T10:16:18.217+0000: 11.172: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
 2025-05-30T10:16:19.254+0000: 12.209: [GC (Allocation Failure) 2025-05-30T10:16:19.255+0000: 12.209: [ParNew: 467537K->46404K(471872K), 0.0464283 secs] 467537K->63338K(996160K), 0.0471008 secs] [Times: user=0.17 sys=0.11, real=0.05 secs] 
 2025-05-30T10:16:20.447+0000: 13.402: [GC (Allocation Failure) 2025-05-30T10:16:20.448+0000: 13.402: [ParNew: 465860K->43251K(471872K), 0.0241815 secs] 482794K->81018K(996160K), 0.0250906 secs] [Times: user=0.12 sys=0.02, real=0.02 secs] 
+2025-05-30T10:23:12.167+0000: 444.536: [GC (Allocation Failure) 2025-05-30T10:23:12.169+0000: 444.538: [ParNew: 462707K->52416K(471872K), 0.0280307 secs] 500474K->90284K(996160K), 0.0313318 secs] [Times: user=0.36 sys=0.00, real=0.03 secs] 
+2025-05-30T10:43:01.941+0000: 1707.006: [GC (Allocation Failure) 2025-05-30T10:43:01.942+0000: 1707.008: [ParNew: 471872K->37083K(471872K), 0.0494838 secs] 509740K->101506K(996160K), 0.0524066 secs] [Times: user=0.27 sys=0.02, real=0.05 secs] 
+2025-05-30T11:03:24.834+0000: 3013.140: [GC (Allocation Failure) 2025-05-30T11:03:24.835+0000: 3013.140: [ParNew: 456539K->19398K(471872K), 0.0266628 secs] 520962K->83821K(996160K), 0.0279487 secs] [Times: user=0.29 sys=0.00, real=0.03 secs] 
+Heap
+ par new generation   total 471872K, used 75294K [0x00000000c0000000, 0x00000000e0000000, 0x00000000e0000000)
+  eden space 419456K,  13% used [0x00000000c0000000, 0x00000000c3695fb0, 0x00000000d99a0000)
+  from space 52416K,  37% used [0x00000000d99a0000, 0x00000000dac919f8, 0x00000000dccd0000)
+  to   space 52416K,   0% used [0x00000000dccd0000, 0x00000000dccd0000, 0x00000000e0000000)
+ concurrent mark-sweep generation total 524288K, used 64423K [0x00000000e0000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 83635K, capacity 87895K, committed 88052K, reserved 1126400K
+  class space    used 10158K, capacity 11214K, committed 11308K, reserved 1048576K

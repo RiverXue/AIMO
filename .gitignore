@@ -3,6 +3,7 @@
 
 # Java 编译输出
 target/
+*.jar
 *.class
 
 # 日志文件
@@ -14,6 +15,8 @@ AIMO/nacos/logs/
 
 # MySQL 数据目录（如果是开发环境）
 AIMO/mysql/data/
+
+
 
 # MinIO 临时数据
 AIMO/minio/data/

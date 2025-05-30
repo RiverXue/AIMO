@@ -70,3 +70,11 @@
 
 2025-05-30 18:16:18,161 INFO [ClientConnectionEventListenerRegistry] registry listener - RpcAckCallbackInitorOrCleaner
 
+2025-05-30 19:03:24,459 INFO Nacos GrpcSdkServer Rpc server stopping
+
+2025-05-30 19:03:24,460 INFO Nacos GrpcClusterServer Rpc server stopping
+
+2025-05-30 19:03:24,514 INFO Nacos GrpcSdkServer Rpc server stopped successfully...
+
+2025-05-30 19:03:24,514 INFO Nacos GrpcClusterServer Rpc server stopped successfully...
+
