@@ -19,29 +19,29 @@ public class PostController {
         postService.createPost(post);
     }
 
-    @GetMapping("/postId/{postId}")
-    public Post getPostByPostId(@PathVariable Long postId) {
-        return postService.getPostByPostId(postId);
+    @GetMapping("/postId/{id}")
+    public Post getPostByPostId(@PathVariable String id) {
+        return postService.getPostById(id);
     }
 
     @GetMapping("/userId/{userId}")
     // 加入了@PathVariable注解，Spring会自动将URL中的userId参数绑定到方法的userId参数上
-    public Post getPostByUserId(@PathVariable Long userId) {
+    public List<Post> getPostByUserId(@PathVariable Long userId) {
         return postService.getPostByUserId(userId);
     }
 
     @GetMapping
-    public List<Post> getAllPosts() {
+    public List<Post> getAll() {
         return postService.getAllPosts();
     }
 
     @PutMapping
-    public void updatePostByPostId(@RequestBody Post post) {
-        postService.updatePostByPostId(post);
+    public void updatePost(@RequestBody Post post) {
+        postService.updatePost(post);
     }
 
-    @DeleteMapping("/{postId}")
-    public void deletePost(@PathVariable Long postId) {
-        postService.deletePost(postId);
+    @DeleteMapping("/{id}")
+    public void deletePost(@PathVariable String id) {
+        postService.deletePost(id);
     }
 }

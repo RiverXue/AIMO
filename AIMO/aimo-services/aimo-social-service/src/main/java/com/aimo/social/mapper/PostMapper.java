@@ -1,7 +1,7 @@
 package com.aimo.social.mapper;
 
 import com.aimo.social.entity.Post;
-import org.apache.ibatis.annotations.Mapper;
+//import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 //@Mapper
