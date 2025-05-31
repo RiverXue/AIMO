@@ -1,8 +1,3 @@
----
-
-## 📌 README.md（推荐内容）
-
-````markdown
 # 👋 欢迎来到 AIMO 项目
 
 AIMO 是一个基于微服务架构的综合性应用平台，提供用户管理、社交互动、AI 助手、日记记录等功能。
@@ -68,10 +63,4 @@ AIMO/
     README_en.md          # English Docs
 ```
 
----
-
-## 📄 License
-
 © 2025 AIMO Team. All Rights Reserved.
-
-````
