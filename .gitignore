@@ -1,6 +1,11 @@
 # IDEA 配置
 .idea/
 
+# redis
+/AIMO/redis/data/
+# 忽略 Redis 的持久化数据文件
+*.rdb
+
 # Java 编译输出
 target/
 *.jar
