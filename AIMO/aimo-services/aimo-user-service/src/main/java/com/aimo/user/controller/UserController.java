@@ -1,6 +1,6 @@
 package com.aimo.user.controller;
 
-import com.aimo.common.util.JwtUtils;
+import com.aimo.auth.util.JwtUtils;
 import com.aimo.user.Repository.UserRepository;
 import com.aimo.user.dto.LoginRequest;
 import com.aimo.user.dto.UserDto;

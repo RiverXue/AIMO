@@ -1,6 +1,6 @@
 package com.aimo.user.config;
 
-import com.aimo.common.filter.JwtAuthenticationFilter;
+import com.aimo.auth.filter.JwtAuthenticationFilter;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -25,7 +25,7 @@ public class SecurityConfig {
                 // 配置哪些请求需要认证
                 .authorizeHttpRequests(auth -> auth
                         // 放行登录接口和静态资源
-                        .requestMatchers("/api/user/login", "/favicon.ico", "/css/**", "/js/**").permitAll()
+                        .requestMatchers("/user/login", "/favicon.ico", "/css/**", "/js/**").permitAll()
                         // 其他请求需要认证
                         .anyRequest().authenticated()
                 )
@@ -50,4 +50,4 @@ public class SecurityConfig {
     }
 }
 
-//eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBSU1PLVVTRVJTIiwidXNlcklkIjoiNCIsInVzZXJuYW1lIjoiand0dGVzdHVzZXIiLCJpYXQiOjE3NDg1MDg0MzgsImV4cCI6MTc0ODU5NDgzOH0.QFnD5a7jvB7UOAGbyPVfM5nWdgNYf-vTmuRyRPR889Q
+//eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBSU1PLVVTRVJTIiwidXNlcklkIjoiNCIsInVzZXJuYW1lIjoiand0dGVzdHVzZXIiLCJpYXQiOjE3NDg3NjQzOTcsImV4cCI6MTc0ODg1MDc5N30.mNfixKXdxWzw1eQpwtwWtW-Sb-iIODbixILofMKTnbk

@@ -78,13 +78,6 @@
         </dependency>
         -->
 
-        <!-- Common module -->
-        <dependency>
-            <groupId>com.aimo</groupId>
-            <artifactId>aimo-common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-
         <!-- MyBatis Plus (if auth server needs to interact with user db directly for validation) -->
         <!-- <dependency>
             <groupId>com.baomidou</groupId>
