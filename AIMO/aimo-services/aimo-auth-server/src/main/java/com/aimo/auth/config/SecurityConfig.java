@@ -1,4 +1,4 @@
-package com.aimo.user.config;
+package com.aimo.auth.config;
 
 import com.aimo.auth.filter.JwtAuthenticationFilter;
 import jakarta.servlet.http.HttpServletResponse;
