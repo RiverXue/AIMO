@@ -20,18 +20,18 @@
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-api</artifactId>
-            <version>0.11.5</version>
+            <!-- 版本将从父POM继承，移除硬编码 -->
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-impl</artifactId>
-            <version>0.11.5</version>
+            <!-- 版本将从父POM继承，移除硬编码 -->
             <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-jackson</artifactId> <!-- 使用 jackson 解析 -->
-            <version>0.11.5</version>
+            <!-- 版本将从父POM继承，移除硬编码 -->
             <scope>runtime</scope>
         </dependency>
 
@@ -82,10 +82,13 @@
         </dependency>
 
         <!-- JWT API - if common DTOs/models relate to JWT claims -->
+        <!-- 移除重复的 jjwt-api 依赖 -->
+        <!--
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-api</artifactId>
         </dependency>
+        -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>

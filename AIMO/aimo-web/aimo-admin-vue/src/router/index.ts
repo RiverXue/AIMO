@@ -1,39 +1,52 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Layout from '../layout/Layout.vue'
-import Home from '../views/Home.vue'
-import User from '../views/User.vue'
-import Post from '../views/Post.vue'
+// 这是创建router的核心函数与历史模式
+import { createRouter, createWebHistory} from 'vue-router'
 
+// 路由规则定义
 const routes = [
     {
         path: '/',
-        component: Layout,
+        name: 'Login',
+        component: () => import('../views/Login.vue')
+    },
+    {
+        path: '/admin',
+        component: () => import('../layout/Layout.vue'), // ✅ 公共 Layout
+        meta: { requiresAuth: true },
         children: [
             {
                 path: '',
                 name: 'Home',
-                component: Home
+                component: () => import('../views/Home.vue')
             },
             {
-                path: 'user',
-                name: 'User',
-                component: User
+                path: 'users',
+                name: 'Users',
+                component: () => import('../views/User.vue')
             },
             {
-                path: 'post',
-                name: 'Post',
-                component: Post
+                path: 'posts',
+                name: 'Posts',
+                component: () => import('../views/Post.vue')
             }
         ]
-    },
-    // 你后续的路由写这里
+    }
 ]
- // 创建路由实例
+
+// 传入历史模式和之前的路由规则
 const router = createRouter({
-    // 使用 HTML5 历史模式
     history: createWebHistory(),
-    // 定义路由
     routes
 })
-// 导出路由实例，以便在 main.ts 中使用
+
+// 路由守卫，在路由跳转之前执行
+router.beforeEach((to, _from, next) => {
+    if (to.meta.requiresAuth) {
+        const token = localStorage.getItem('token')
+        if (!token) {
+            return next('/login')
+        }
+    }
+    next()
+})
+// 暴露出去，意义在在于main.ts中使用，不暴露的话，无法使用
 export default router
